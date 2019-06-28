@@ -10,7 +10,7 @@ print:
   # basic:网页基本一致，
   # flex: 侧栏密集排版，
   # block:无侧栏
-  template: 'basic' 
+  template: 'flex' 
   #字体大小
   fontsize: 12px
   #页面边距设置，3~5mm为佳[不建议修改]
@@ -21,7 +21,8 @@ print:
   section:
     margin: '3px auto 0' #边距
     padding: '3px 0' #内部偏移
-    width: '80%' #内容宽度 basic无效
+    # width: '80%' #内容宽度 basic无效
+    width: '85%'
   # content每一条边距设置
   block-margin: 4px 0
   #打印版页脚设置
