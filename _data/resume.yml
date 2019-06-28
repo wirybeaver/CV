@@ -32,13 +32,17 @@ main: #简历主要内容，
   # name: 教育 #显示名称，空则使用type
   content: #内容基本格式 标题-副标题-日期-详细内容 (都允许空)
   - title: The Ohio State University
-    sub: Master of Science
+    sub: Master of Science, Computer Science
     duration: "08/2017 - 05/2019年"
-    detail:  "Major: Computer Science; GPA: 3.97/4.0"
+    items:
+    - GPA 3.97/4.0
   - title: Zhejiang University
-    sub: Bacherlor of Engineering
+    sub: Bacherlor of Engineering, Automation
     duration: "09/2013 - 07/2017"
-    summary: Major&nbsp<span class='tag'>Automation</span>; GPA:3.97/4.0; Ranking:4/144
+    items:
+    - GPA 3.97/4.0
+    - Ranking 4/144
+    - National Scholarship
 
 - type: skills
   # name: "技能"
