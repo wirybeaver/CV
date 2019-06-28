@@ -34,11 +34,11 @@ main: #简历主要内容，
   - title: The Ohio State University
     sub: Master of Science
     duration: "08/2017 - 05/2019年"
-    detail:  Major:Computer Science; GPA:3.97/4.0
+    detail:  "Major: Computer Science; GPA: 3.97/4.0"
   - title: Zhejiang University
     sub: Bacherlor of Engineering
     duration: "09/2013 - 07/2017"
-    detail:  Major <code>Automation</code>; GPA:3.97/4.0; Ranking:4/144
+    text:  Major <code>Automation</code>; GPA:3.97/4.0; Ranking:4/144
 
 - type: skills
   # name: "技能"
