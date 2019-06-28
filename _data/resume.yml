@@ -42,8 +42,8 @@ main: #简历主要内容，
     sub: Bachelor of Engineering
     tags:
     - Automation
-    - GPA (3.97/4.0)
-    - Ranking (4/144)
+    - GPA 3.97/4.0
+    - Ranking 4/144
     detail: National Schlorship, Oral Presentation at IEEE DSAA 2017
 
 - type: skills
