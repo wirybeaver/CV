@@ -38,7 +38,7 @@ main: #简历主要内容，
   - title: Zhejiang University
     sub: Bacherlor of Engineering
     duration: "09/2013 - 07/2017"
-    text:  Major <code>Automation</code>; GPA:3.97/4.0; Ranking:4/144
+    summary: Major <span class='item'>Automation</span>; GPA:3.97/4.0; Ranking:4/144
 
 - type: skills
   # name: "技能"
