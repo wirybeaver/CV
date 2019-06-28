@@ -36,14 +36,14 @@ main: #简历主要内容，
     duration: "08/2017 - 05/2019年"
     tags:
     - Computer Science
-    - GPA (3.97/4.0)
+    - GPA:3.97/4.0
   - title: Zhejiang University
     duration: "09/2013 - 07/2017"
     sub: Bachelor of Engineering
     tags:
     - Automation
-    - GPA 3.97/4.0
-    - Ranking 4/144
+    - GPA:3.97/4.0
+    - Ranking:4/144
     detail: National Schlorship, Oral Presentation at IEEE DSAA 2017
 
 - type: skills
