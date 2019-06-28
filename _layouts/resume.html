@@ -94,11 +94,12 @@ layout: default
               {% if content.tags.size > 0 %}
               <div class="tag">
                 {% for tag in content.tags %}
-                <code>{{ tag }}</code>
+<!--                 <code>{{ tag }}</code> -->
+                  {{ tag }}
                 {% endfor %}
               </div>
               {% endif %}
-              {% if content.sub.size > 0 and content.duration.size > 0 %}
+              {% if content.duration.size > 0 %}
                <i class="time">{{ content.duration }}</i>
               {% endif %}
             </div>
