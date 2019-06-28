@@ -84,9 +84,12 @@ layout: default
               {% endif %} 
               {% if content.sub.size > 0 %}
                 <h4 class="sub">{{ content.sub }}</h4>
+              {% elsif content.duration.size > 0 %}
+               <i class="time">{{ content.duration }}</i>                
               {% endif %}
             </div>
 
+            {%if content.tags.size > 0 or (content.sub.size > 0 and content.duration.size > 0)%}
             <div class="info">
               {% if content.tags.size > 0 %}
               <div class="tag">
@@ -95,10 +98,11 @@ layout: default
                 {% endfor %}
               </div>
               {% endif %}
-              {% if content.duration.size > 0 %}
+              {% if content.sub.size > 0 and content.duration.size > 0 %}
                <i class="time">{{ content.duration }}</i>
               {% endif %}
             </div>
+            {% endif %}
 
             {% if content.detail.size > 0 %}
               {% comment %} 解析markdown文件 {% endcomment %}
