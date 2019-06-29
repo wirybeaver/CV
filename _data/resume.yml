@@ -23,7 +23,7 @@ contact: #联系方式连接等3~5行
 - text: "shanelxy.top"
   href: 'https://shanelxy.top'
   icon: 'icons/web.svg'
-  attr: 'target=_blank'
+  # attr: 'target=_blank'
 - text: "Seattle, WA"
   icon: "icons/location.svg"
 
