@@ -245,7 +245,8 @@ section {
 
 .item,
 .time,
-code {
+code,
+codebk {
   // margin-right: 1em;
   display: inline-block;
   @include outline($time_outline);
@@ -272,16 +273,21 @@ code {
   }
 
   .time,
-  code {
+  code,
+  codebk {
     padding: .1em .3em; // @include outline($time_outline);
   }
 
-  code {
-    color: #666;
-    font-weight: 500;
+  code,
+  codebk {
+    font-weight: 400;
     background: rgba(249, 249, 252, .5);
     margin-left: .1em;
     padding: .1em;
+  }
+
+  codebk{
+    color: #000
   }
 }
 
