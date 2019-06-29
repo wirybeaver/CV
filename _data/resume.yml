@@ -12,9 +12,9 @@ contact: #联系方式连接等3~5行
 - text: "shanelxy@outlook.com" #文本内容
   href: 'mailto:youremail@example.com' #链接，无链接则空  
   icon: 'icons/email.svg' #图标 svg文件
-- text: "linkedin.com/in/wirybeaver"
-  href: 'https://www.linkedin.com/in/wirybeaver'
-  icon: 'icons/linkedin.svg'
+# - text: "linkedin.com/in/wirybeaver"
+#   href: 'https://www.linkedin.com/in/wirybeaver'
+#   icon: 'icons/linkedin.svg'
 - text: "github.com/wirybeaver"
   href: 'https://github.com/wirybeaver'
   icon: "icons/github.svg"
