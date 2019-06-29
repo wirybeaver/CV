@@ -1,4 +1,4 @@
-title: 简历模板
+title: CV
 #baseurl: "" # default set by github
 querytime: true  #在头像,js和css等后加上时间戳防止缓存,false关闭
 manifest: '' # html5离线缓存配置文件名,默认关闭
@@ -10,7 +10,7 @@ print:
   # basic:网页基本一致，
   # flex: 侧栏密集排版，
   # block:无侧栏
-  template: 'block' 
+  template: 'basic' 
   #字体大小
   fontsize: 12px
   #页面边距设置，3~5mm为佳[不建议修改]
@@ -21,8 +21,8 @@ print:
   section:
     margin: '3px auto 0' #边距
     padding: '3px 0' #内部偏移
-    # width: '80%' #内容宽度 basic无效
-    width: '85%'
+    width: '80%' #内容宽度 basic无效
+    # width: '85%'
   # content每一条边距设置
   block-margin: 4px 0
   #打印版页脚设置
