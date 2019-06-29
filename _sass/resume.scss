@@ -270,7 +270,8 @@ code {
 
   .tag {
     color: #666;
-    margin-right: auto;
+    // margin-right: auto;
+    margin-right: .2em;
   }
 
   .time,
@@ -285,7 +286,7 @@ code {
     background: rgba(249, 249, 252, .5);
     // font-size: 1.1em;
     font-size: 1em;
-    // padding: .1em;
+    padding: .1em;
   }
 }
 
