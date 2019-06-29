@@ -202,7 +202,8 @@ section {
   .items {
     line-height: 1.5em;
     margin: 0 0 0 1em;
-    font-size: 1.1em;
+    // font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: 600;
 
     .item {
@@ -250,6 +251,11 @@ code {
   @include outline($time_outline);
 }
 
+// 自己加
+.time {
+  font-size: 0.9em;
+}
+
 .item {
   padding: .1em;
   border-color: $other_line;
@@ -269,7 +275,6 @@ code {
 
   .time,
   code {
-    // font-size: 12px;
     padding: .1em .3em; // @include outline($time_outline);
   }
 
@@ -278,7 +283,8 @@ code {
     color: #000;
     margin-left: .2em;
     background: rgba(249, 249, 252, .5);
-    font-size: 1.1em;
+    // font-size: 1.1em;
+    font-size: 0.9em;
     padding: .1em;
   }
 }
