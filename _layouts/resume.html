@@ -95,7 +95,7 @@ layout: default
                 {% for tag in content.tags %}
                   <div class="tag">
                     {% if tag.label.size>0 %}
-                      <span>tag.label</span>
+                      <span>{{ tag.label }}</span>
                     {% endif%}
                     {% if tag.code.size > 0 %}
                       <code>{{ tag.code }}</code>

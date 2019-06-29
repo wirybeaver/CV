@@ -265,7 +265,7 @@ code {
   }
 
   .tag {
-    color: #666;
+    // color: #666;
     margin-right: auto;
     font-size: 1em;
   }
@@ -276,10 +276,7 @@ code {
   }
 
   code {
-    // color: #999;
-    color: #000;
-    // 增加
-    margin-right: .5em;
+    color: #999;
     background: rgba(249, 249, 252, .5);
     padding: .1em;
   }
