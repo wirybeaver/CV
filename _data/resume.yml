@@ -6,7 +6,7 @@ lang: "en" #语言设置 zh表示中文 en 表示英语
 name: "Xuanyi Li"
 jobtitle: "Software Engineer" #可空不显示
 # photo: "https://i.loli.net/2019/06/21/5d0ce71e07ffc20277.jpeg" #照片可空，不显示
-photo: "https://imgur.com/5PbfMXW"
+photo: "https://i.imgur.com/5PbfMXW.jpg"
 
 #联系方式
 contact: #联系方式连接等3~5行
