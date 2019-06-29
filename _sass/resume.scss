@@ -251,11 +251,6 @@ code {
   @include outline($time_outline);
 }
 
-// 自己加
-.time {
-  font-size: 1em;
-}
-
 .item {
   padding: .1em;
   border-color: $other_line;
@@ -266,11 +261,13 @@ code {
   .time {
     color: #666;
     margin-left: auto;
+    font-size: 1em;
   }
 
   .tag {
     color: #666;
     margin-right: auto;
+    font-size: 1em;
   }
 
   .time,
@@ -281,10 +278,9 @@ code {
   code {
     // color: #999;
     color: #000;
+    // 增加
     margin-right: .5em;
     background: rgba(249, 249, 252, .5);
-    // font-size: 1.1em;
-    font-size: 1em;
     padding: .1em;
   }
 }
