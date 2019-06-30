@@ -76,7 +76,7 @@ main: #简历主要内容，
 - type: experience
   content:
   - title: Backend Engineer Intern
-    sub: Alibaba
+    sub: Alibaba, China
     duration: "5/10/2018 - 7/27/2018"
     tags:
     - Taobao Transaction Platform
@@ -84,7 +84,7 @@ main: #简历主要内容，
     # open: open
     #可以设置open默认展开
   - title: 
-    sub: Singapore University of Technology and Design
+    sub: SUTD, Singapore
     duration: 7/3/2016 - 8/5/2016
     tags: 
     - Natural Language Processing Group
@@ -94,6 +94,7 @@ main: #简历主要内容，
   name: Projects
   content:
   - title: leanSpring
+    sub: Side Project
     duration: 6/7/2019 - Present
     tags:
     - Java
