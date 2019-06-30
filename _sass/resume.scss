@@ -245,8 +245,7 @@ section {
 
 .item,
 .time,
-code,
-codebk {
+code {
   // margin-right: 1em;
   display: inline-block;
   @include outline($time_outline);
