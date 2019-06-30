@@ -94,13 +94,13 @@ main: #简历主要内容，
   name: Projects
   content:
   - title: leanSpring
-    sub: Side Project
+    # sub: Side Project
     duration: 6/7/2019 - Present
     tags:
     - Java
     - AOP
     - IOC
-    summary: Developed an IOC (Inverse Of Control) container and implemented the feature of AOP (Asepect Oriented Programing).
+    summary: Developed an IOC container and implemented the feature of AOP.
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
