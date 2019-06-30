@@ -85,7 +85,9 @@ layout: default
               {% if content.sub.size > 0 %}
                 <h4 class="sub">{{ content.sub }}</h4>
               {% elsif content.duration.size > 0 %}
-               <i class="time">{{ content.duration }}</i>                
+               <i class="time">{{ content.duration }}</i>
+              {% else %}
+                <i class="time"></i>               
               {% endif %}
             </div>
 
