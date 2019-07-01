@@ -55,14 +55,12 @@ main: #简历主要内容，
   # name: "技能"
   content:
   - title: Programming Language
-    items: #itmems 可以小块的方式显示
+    items: #items 可以小块的方式显示
     - Go
     - Java
     - C
     - SQL
     - Python
-    - X86 Assembly
-    - LaTex
   - title: FrameWork
     items: 
     - Spring Boot
@@ -71,7 +69,7 @@ main: #简历主要内容，
     - Redis
     - RocketMQ
     - Druid
-    - Jenkins 
+    - Jenkins
 
 - type: experience
   content:
@@ -79,28 +77,24 @@ main: #简历主要内容，
     sub: Alibaba, China
     duration: "5/10/2018 - 7/27/2018"
     tags:
-    - Taobao Transaction Platform
+    - label: Taobao Transaction Platform
     summary: Built an internal platform to accelerate AI for business development
     # open: open
     #可以设置open默认展开
-  - title: 
+  - title: Reasearch Assistant
     sub: SUTD, Singapore
     duration: 7/3/2016 - 8/5/2016
     tags: 
-    - Natural Language Processing Group
-    summary: Amelirate the mechanism of multitask learning and published a paper to IEEE DSAA 2017
+    - label: Natural Language Processing Group
+    summary: Published a paper on multitask learning in the IEEE DSAA 2017
 
 - type: projects
   name: Projects
   content:
   - title: leanSpring
     # sub: Side Project
-    duration: 6/7/2019 - Present
-    tags:
-    - Java
-    - AOP
-    - IOC
-    summary: Developed an IOC container and implemented the feature of AOP.
+    # duration: 6/7/2019 - Present
+    detail: Developed an IOC container and implemented the feature of AOP in Java.
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
