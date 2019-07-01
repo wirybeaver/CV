@@ -92,8 +92,7 @@ main: #简历主要内容，
   name: Projects
   content:
   - title: leanSpring
-    # sub: Side Project
-    # duration: 6/7/2019 - Present
+    url: https://github.com/wirybeaver/leanSpring
     detail: Developed an <b>IoC</b> container and implemented the feature of <b>AOP</b> in <b>Java</b>.
   # - title: Project Name
   #   summary: Projects' introduction or summary
