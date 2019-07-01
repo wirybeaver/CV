@@ -222,6 +222,10 @@ section {
   @include justify-content(space-between);
 }
 
+.notime_info{
+  @include justify-content(space-between);
+}
+
 .head {
   .title {
     margin: 0;
@@ -259,6 +263,40 @@ codebk {
 
 //时间和标签
 .info {
+  .time {
+    color: #666;
+    margin-left: auto;
+    font-size: 1em;
+  }
+
+  .tag {
+    color: #666;
+    // margin-right: auto;
+    margin-right: .5em;
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .time,
+  code,
+  codebk {
+    padding: .1em .3em; // @include outline($time_outline);
+  }
+
+  code,
+  codebk {
+    font-weight: 400;
+    background: rgba(249, 249, 252, .5);
+    margin-left: .1em;
+    padding: .1em;
+  }
+
+  codebk{
+    color: #000
+  }
+}
+
+.notime_info {
   .time {
     color: #666;
     margin-left: auto;
