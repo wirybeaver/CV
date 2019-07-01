@@ -94,7 +94,7 @@ main: #简历主要内容，
   - title: leanSpring
     # sub: Side Project
     # duration: 6/7/2019 - Present
-    detail: Developed an IOC container and implemented the feature of AOP in Java.
+    detail: Developed an <b>IoC</b> container and implemented the feature of <b>AOP</b> in <b>Java</b>.
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
