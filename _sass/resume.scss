@@ -248,14 +248,8 @@ section {
 code,
 codebk {
   // margin-right: 1em;
-  // display: inline-block;
-  @include outline($time_outline);
-}
-
-.item,
-.time,{
-  // margin-right: 1em;
   display: inline-block;
+  @include outline($time_outline);
 }
 
 .item {

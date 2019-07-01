@@ -85,34 +85,47 @@ layout: default
               {% if content.sub.size > 0 %}
                 <h4 class="sub">{{ content.sub }}</h4>
               {% elsif content.duration.size > 0 %}
-               <i class="time">{{ content.duration }}</i>
-              {% else %}
-                <i class="time"></i>               
+               <i class="time">{{ content.duration }}</i>             
               {% endif %}
             </div>
 
-            {%if content.tags or (content.sub.size > 0 and content.duration.size > 0)%}
-            <div class="info">
-              {% if content.tags %}
-                {% for tag in content.tags %}
-                  <div class="tag">
-                    {% if tag.label or tag.code %}
-                      {% if tag.label.size > 0 %}
-                        <span>{{ tag.label }}</span>
-                      {% endif%}
-                      {% if tag.code.size > 0 %}
-                        <codebk>{{ tag.code }}</codebk>
+            {%if content.tags %}
+              {% if content.sub.size > 0 and content.duration.size > 0 %}
+                <div class="info">
+                  {% for tag in content.tags %}
+                    <div class="tag">
+                      {% if tag.label or tag.code %}
+                        {% if tag.label.size > 0 %}
+                          <span>{{ tag.label }}</span>
+                        {% endif%}
+                        {% if tag.code.size > 0 %}
+                          <codebk>{{ tag.code }}</codebk>
+                        {% endif %}
+                      {% else %}
+                        <code>{{ tag }}</code>
                       {% endif %}
-                    {% else %}
-                      <code>{{ tag }}</code>
-                    {% endif %}
-                  </div>
-                {% endfor %}
+                    </div>
+                  {% endfor %}
+                  <i class="time">{{ content.duration }}</i>
+                </div>
+              {% else %}
+                <div>
+                  {% for tag in content.tags %}
+                    <div class="tag">
+                      {% if tag.label or tag.code %}
+                        {% if tag.label.size > 0 %}
+                          <span>{{ tag.label }}</span>
+                        {% endif%}
+                        {% if tag.code.size > 0 %}
+                          <codebk>{{ tag.code }}</codebk>
+                        {% endif %}
+                      {% else %}
+                        <code>{{ tag }}</code>
+                      {% endif %}
+                    </div>
+                  {% endfor %}
+                </div>
               {% endif %}
-              {% if content.sub.size > 0 %}
-               <i class="time">{{ content.duration }}</i>
-              {% endif %}
-            </div>
             {% endif %}
 
             {% if content.detail.size > 0 %}
