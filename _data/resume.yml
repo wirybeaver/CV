@@ -73,6 +73,11 @@ main: #简历主要内容，
 
 - type: experience
   content:
+  - title: Software Engineer
+    sub: Quantcast, Seattle
+    duration: 7/15/2019 - Present
+    tags: 
+    - label: Audience Platform
   - title: Backend Engineer Intern
     sub: Alibaba, China
     duration: "5/10/2018 - 7/27/2018"
