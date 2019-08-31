@@ -73,6 +73,7 @@ main: #简历主要内容，
     - Keras
     - Redis
   - title: Test and Operations
+    items:
     - JUnit
     - Terraform
     - Git
