@@ -99,7 +99,7 @@ main: #简历主要内容，
     summary: Built an internal distributed Spring Boot application to automate AI development
     detail:
       md: _data/ali.md
-    open: open
+    # open: open
     #可以设置open默认展开
   - title: Visiting Student
     sub: SUTD, Singapore
@@ -109,7 +109,7 @@ main: #简历主要内容，
     summary: Ameliorated multi-task deep learning model with <b>Keras</b> for text classification.
     detail:
       md: _data/sutd.md
-    open: open
+    # open: open
 
 - type: Projects
   name: Projects
@@ -119,9 +119,9 @@ main: #简历主要内容，
     summary: Developed multiplayer tictactoe game in C with Stream, Multicast and Failover.
     detail:
       md: _data/tictactoe.md
-    open: open
+    # open: open
 
-  - title: Selected Side Projects
+  - title: More Side Projects in Brief
     detail:
       md: _data/side.md
     open: open
