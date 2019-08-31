@@ -114,8 +114,9 @@ main: #简历主要内容，
 - type: Projects
   name: Projects
   content:
-  - title: Multiplayer Tictactoe with Stream, Multicast and Failover
+  - title: Multiplayer Tictactoe
     url: https://github.com/wirybeaver/MultiPlayerTictactoe
+    summary: Developed multiplayer tictactoe game in C with Stream, Multicast and Failover.
     detail:
       md: _data/tictactoe.md
 
