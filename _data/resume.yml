@@ -90,15 +90,16 @@ main: #简历主要内容，
     duration: 7/15/2019 - Present
     tags: 
     - label: Audience Platform
+    summary: Ingested advertising streaming data from <b>Kafka</b> into the real-time analytics database <b>Druid</b>.
   - title: Backend Engineer Intern
     sub: Alibaba, China
     duration: "5/10/2018 - 7/27/2018"
     tags:
     - label: Taobao Transaction Platform
-    summary: Built an internal platform to accelerate AI for business development
+    summary: Built an internal distributed Spring Boot application to automate AI development
     detail:
       md: _data/ali.md
-    # open: open
+    open: open
     #可以设置open默认展开
   - title: Visiting Student
     sub: SUTD, Singapore
@@ -106,13 +107,24 @@ main: #简历主要内容，
     tags: 
     - label: Natural Language Processing Group
     summary: Ameliorated multi-task deep learning model with <b>Keras</b> for text classification.
+    detail:
+      md: _data/sutd.md
+    open: open
 
-- type: projects
-  name: Projects
+- type: Projects
   content:
+  - title: Multiplayer Tictactoe with Stream, Multicast and Failover
+    url: https://github.com/wirybeaver/MultiPlayerTictactoe
+    detail:
+      md: _data/tictactoc.md
+    open: open
   - title: leanSpring
     url: https://github.com/wirybeaver/leanSpring
-    detail: Developed an <b>IoC</b> container and implemented the feature of <b>AOP</b> in <b>Java</b>.
+    detail: Wrote an Sprint clone from scratch in <b>Java</b> and implemented the feature of IoC (Inverse
+of Control) and AOP (Aspect Oriented Programming)
+  - title: Lisp Interpreter
+    url: https://github.com/wirybeaver/lispInterpreter
+    detail: Implemented Lisp interpreter in <b>Java</b> to parse the expression into binary tree, evaluate arguments, bind them to associated formal parameters and recursively evaluate function body.
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
