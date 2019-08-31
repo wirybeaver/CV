@@ -119,6 +119,7 @@ main: #简历主要内容，
     summary: Developed multiplayer tictactoe game in C with Stream, Multicast and Failover.
     detail:
       md: _data/tictactoe.md
+      open: open
 
   - title: Selected Side Projects
     detail:
