@@ -111,13 +111,14 @@ main: #简历主要内容，
       md: _data/sutd.md
     open: open
 
-- type: Projects
+others:
+- type: others
+  name: Projects
   content:
   - title: Multiplayer Tictactoe with Stream, Multicast and Failover
     url: https://github.com/wirybeaver/MultiPlayerTictactoe
     text:
       md: _data/tictactoe.md
-    open: open
   - title: leanSpring
     url: https://github.com/wirybeaver/leanSpring
     text: Wrote an Sprint clone from scratch in <b>Java</b> and implemented the feature of IoC (Inverse of Control) and AOP (Aspect Oriented Programming)
