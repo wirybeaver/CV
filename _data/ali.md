@@ -1,0 +1,5 @@
+- Empowered the coupon team to reduce one week for tweaking their recommendation algorithm.
+- Hooked up offile training platform to other data processing modules.
+    - Generated dynamic front-end forms of training parameters for variant algorithms with **Gson**.
+    - Used **HttpClient** to poll training status, optimistic lock to check consistency of training process.
+- Delivered trained models to designated client servers with **Diamond** (persisted config management system) and **Tair** (distributed cache).
