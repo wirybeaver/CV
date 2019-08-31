@@ -1,3 +1,3 @@
-- <b>leanSpring</b> Wrote an Sprint clone from scratch in <b>Java</b> and implemented the feature of IoC (Inverse of Control) and AOP (Aspect Oriented Programming)
-- <b>Lisp Interpreter</b> Implemented Lisp interpreter in <b>Java</b> to parse the expression into binary tree, evaluate arguments, bind them to associated formal parameters and recursively evaluate function body.
-- <b>Seckill Shopping</b>: Used <b>Redis</b> to reject overselling requests. Combined <b>RocketMQ</b> with local message table to implement the distributed transaction per the choreography-based saga pattern.
+- <b>Lean Spring:</b> Wrote an Sprint clone from scratch in <b>Java</b> and implemented the feature of IoC (Inverse of Control) and AOP (Aspect Oriented Programming)
+- <b>Lisp Interpreter:</b> Implemented Lisp interpreter in <b>Java</b> to parse the expression into binary tree, evaluate arguments, bind them to associated formal parameters and recursively evaluate function body.
+- <b>Seckill Shopping:</b> Used <b>Redis</b> to reject overselling requests. Combined <b>RocketMQ</b> with local message table to implement the distributed transaction per the choreography-based saga pattern.
