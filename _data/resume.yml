@@ -123,6 +123,7 @@ main: #简历主要内容，
   - title: Selected Side Projects
     detail:
       md: _data/side.md
+    open: open
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
