@@ -90,7 +90,7 @@ main: #简历主要内容，
     duration: 7/15/2019 - Present
     tags: 
     - label: Audience Platform
-    summary: Ingested advertising streaming data from <b>Kafka</b> into the real-time analytics database <b>Druid</b>.
+    summary: Ingested advertising data from <b>Kafka</b> into the real-time analytics database <b>Druid</b>.
   - title: Backend Engineer Intern
     sub: Alibaba, China
     duration: "5/10/2018 - 7/27/2018"
