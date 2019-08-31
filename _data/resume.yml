@@ -116,7 +116,7 @@ main: #简历主要内容，
   - title: Multiplayer Tictactoe with Stream, Multicast and Failover
     url: https://github.com/wirybeaver/MultiPlayerTictactoe
     detail:
-      md: _data/tictactoc.md
+      md: _data/tictactoe.md
     open: open
   - title: leanSpring
     url: https://github.com/wirybeaver/leanSpring
