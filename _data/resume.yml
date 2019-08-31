@@ -95,8 +95,8 @@ main: #简历主要内容，
     tags:
     - label: Taobao Transaction Platform
     summary: Built an internal platform to accelerate AI for business development
-    detail:
-      md: _data/ali.md
+    # detail:
+    #   md: _data/ali.md
     # open: open
     #可以设置open默认展开
   - title: Visiting Student
