@@ -4,7 +4,7 @@
 /*变量*/
 
 //详细内容颜色
-$detail_bg: rgba(236, 236, 236, .3);
+$summary_bg: rgba(236, 236, 236, .3);
 //时间外边颜色
 $time_outline: rgba(180, 180, 180, .15);
 //item背景色
@@ -197,6 +197,7 @@ section {
     margin: .3em 0 0 1em;
     line-height: 1.5em;
     font-weight: 600;
+    background: $summary_bg;
   }
 
   .items {
@@ -336,7 +337,6 @@ codebk {
   text-indent: 1.2em;
   line-height: 1.4em;
   font-weight: 400;
-  background: $detail_bg;
   word-wrap: break-word;
 
   &:lang(zh) {
