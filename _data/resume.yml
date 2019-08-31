@@ -120,7 +120,7 @@ main: #简历主要内容，
       md: _data/tictactoe.md
 
   - title: Selected Side Projects
-  - detail:
+    detail:
       md: _data/side.md
   # - title: Project Name
   #   summary: Projects' introduction or summary
