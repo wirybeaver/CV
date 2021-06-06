@@ -86,19 +86,24 @@ main: #简历主要内容，
 - type: experience
   content:
   - title: Software Engineer
+    sub: LinkedIn, Sunnyvale
+    duration: 3/29/2021 - Present
+    tags: 
+    - label: Machine Learning Infrastructure
+  - title: Software Engineer
     sub: Quantcast, Seattle
-    duration: 7/15/2019 - Present
+    duration: 7/15/2019 - 3/26/2021
     tags: 
     - label: Audience Platform
-    summary: Ingested advertising data from <b>Kafka</b> into the real-time analytics database <b>Druid</b>.
+    # summary: Developed two OLAP systems
   - title: Backend Engineer Intern
     sub: Alibaba, China
-    duration: "5/10/2018 - 7/27/2018"
+    duration: 5/10/2018 - 7/27/2018
     tags:
     - label: Taobao Transaction Platform
-    summary: Built an internal distributed Spring Boot application to automate AI development
-    detail:
-      md: _data/ali.md
+    summary: Built an internal distributed Spring Boot application to automate ML lifecycle
+    # detail:
+    #   md: _data/ali.md
     # open: open
     #可以设置open默认展开
   - title: Visiting Student
@@ -106,25 +111,25 @@ main: #简历主要内容，
     duration: 7/3/2016 - 8/5/2016
     tags: 
     - label: Natural Language Processing Group
-    summary: Ameliorated multi-task deep learning model with <b>Keras</b> for text classification.
-    detail:
-      md: _data/sutd.md
+    # summary: Ameliorated multi-task deep learning model with <b>Keras</b> for text classification.
+    # detail:
+    #   md: _data/sutd.md
     # open: open
 
-- type: Projects
-  name: Projects
-  content:
-  - title: Multiplayer Tictactoe
-    url: https://github.com/wirybeaver/MultiPlayerTictactoe
-    summary: Developed multiplayer tictactoe game in C with Stream, Multicast and Failover.
-    detail:
-      md: _data/tictactoe.md
-    # open: open
+# - type: Projects
+#   name: Projects
+#   content:
+#   - title: Multiplayer Tictactoe
+#     url: https://github.com/wirybeaver/MultiPlayerTictactoe
+#     summary: Developed multiplayer tictactoe game in C with Stream, Multicast and Failover.
+#     detail:
+#       md: _data/tictactoe.md
+#     # open: open
 
-  - title: More Side Projects in Brief
-    detail:
-      md: _data/side.md
-    open: open
+#   - title: More Side Projects in Brief
+#     detail:
+#       md: _data/side.md
+#     open: open
   # - title: Project Name
   #   summary: Projects' introduction or summary
   #   detail:
@@ -161,8 +166,8 @@ footer: #脚注多组
   screen:
   - text: "Resume"
     href: "https://shanelxy.top/assets/ResumeXuanyi.pdf"
-  - text: "简历"
-    href: "https://shanelxy.top/assets/简历_李宣毅.pdf"
+  # - text: "简历"
+  #   href: "https://shanelxy.top/assets/简历_李宣毅.pdf"
   # - text: "Made with &hearts by Xuanyi Li"
   #   href: "https://github.com/wirybeaver/CV/"
 
