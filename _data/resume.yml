@@ -51,37 +51,37 @@ main: #简历主要内容，
     - label: "Ranking: "
       code: 4/144
 
-- type: skills
-  # name: "技能"
-  content:
-  - title: Programming Languages
-    items: #items 可以小块的方式显示
-    - Java
-    - Shell
-    - C
-    - Go
-    - SQL
-    - Python
-    - X86 Assembly
-  - title: FrameWorks
-    items: 
-    - Spring Boot
-    - Apache Druid
-    - gRPC
-    - Apache Kafka
-    - Mybatis
-    - Keras
-    - Redis
-  - title: Test and Operations
-    items:
-    - JUnit
-    - Terraform
-    - Git
-    - Gradle
-    - Jenkins
-    - Docker
-    - AWS
-    - Mockito
+# - type: skills
+#   # name: "技能"
+#   content:
+#   - title: Programming Languages
+#     items: #items 可以小块的方式显示
+#     - Java
+#     - Shell
+#     - C
+#     - Go
+#     - SQL
+#     - Python
+#     - X86 Assembly
+#   - title: FrameWorks
+#     items: 
+#     - Spring Boot
+#     - Apache Druid
+#     - gRPC
+#     - Apache Kafka
+#     - Mybatis
+#     - Keras
+#     - Redis
+#   - title: Test and Operations
+#     items:
+#     - JUnit
+#     - Terraform
+#     - Git
+#     - Gradle
+#     - Jenkins
+#     - Docker
+#     - AWS
+#     - Mockito
 
 - type: experience
   content:
