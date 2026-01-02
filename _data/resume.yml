@@ -50,6 +50,11 @@ main: #简历主要内容，
       code: 3.97/4.0
     - label: "Ranking: "
       code: 4/144
+  - title: Zhenhai High School
+    sub: Innovation Class
+    duration: "09/2010 - 06/2013"
+    tags:
+    - label: "Physics Olympiad Team"
 
 # - type: skills
 #   # name: "技能"
